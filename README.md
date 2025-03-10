@@ -62,11 +62,11 @@ Number of motors - Number of motors in the tomogram. Note that each row represen
 - sample_submission.csv: Sample submission file in the correct format. (If you predict that no motor exists, set Motor axis 0, Motor axis 1, and Motor axis 2 to '-1')
 
 -------------
-https://www.kaggle.com/code/gunesevitan/byu-locating-bacterial-flagellar-motors-eda
+![](https://www.kaggle.com/code/gunesevitan/byu-locating-bacterial-flagellar-motors-eda)
 ##  Cryogenic electron tomography (cryo-ET)¶
 Cryogenic Electron Tomography (cryo-ET) is an advanced imaging technique used to create high-resolution (1–4 nm) 3D models of tiny structures, such as biological molecules and cells. It works by tilting a frozen sample under a transmission electron microscope (Cryo-TEM) to capture multiple 2D images from different angles. These images are then combined to form a detailed 3D reconstruction, similar to how a CT scan works for the human body. Unlike other electron microscopy methods, cryo-ET keeps samples at extremely low temperatures (< -150°C), preserving their natural state in a thin layer of vitreous ice without dehydration or chemical damage.
 
-https://i.ibb.co/0yk5JwtX/Screenshot-from-2025-03-07-20-05-59.png
+![](https://i.ibb.co/0yk5JwtX/Screenshot-from-2025-03-07-20-05-59.png)
 
 
 References:
