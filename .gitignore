@@ -1,2 +1,6 @@
 data/
 temp/
+*.pth
+*.pt
+yolo_weights/
+*.csv

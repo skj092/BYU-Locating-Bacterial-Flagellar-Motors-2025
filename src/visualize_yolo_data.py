@@ -155,7 +155,7 @@ if __name__ == "__main__":
 
     # Updated paths without concatenating with base_dir since they're already absolute
     images_train_dir = path/"yolo_dataset/images/train/"
-    labels_train_dir = path/"parse-data/yolo_dataset/labels/train/"
+    labels_train_dir = path/"yolo_dataset/labels/train/"
 
     # Box size for highlighting the motor
     BOX_SIZE = 24
