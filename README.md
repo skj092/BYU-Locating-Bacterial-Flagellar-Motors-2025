@@ -73,3 +73,16 @@ References:
 - https://journals.asm.org/doi/10.1128/jb.00117-19
 - https://chatgpt.com/c/67cd437c-9af8-800f-81c1-f8c252aed3f5
 - https://www.kaggle.com/code/gunesevitan/byu-locating-bacterial-flagellar-motors-eda
+
+
+
+## Solution 1:
+### Inference
+1. load model
+2. for every tomo id in test directory (total 3 directory), get all the slices, and filter out randomly to reduct the number of samples.
+3. create a batch and push it to the input of model and get output from model as - x, y, z, confidence for every slice. (bs, x, y, z, confidence) append into an array to collect result of all slices.
+4. apply 3d nms in all the detections, sort by conficence, return the first.
+### Train
+1. Prepare yolo directory setups and yaml files using single functions.
+2. train yolo
+### Data preprocessing
